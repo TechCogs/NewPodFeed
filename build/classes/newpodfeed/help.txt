@@ -20,6 +20,6 @@ After filling in the fields as you like, click on the Save Template button. Choo
 
 To load a template, click on the Load Template button, find the template file you saved before, click on it, then click on the Load button. All the fields you saved before will be automatically filled in for you.
 
-New releases
+New episodes
 
 To create a new release, click on the New Release button, do any template operations you need, then fill out the fields for the new release of your podcast. Click on the Update Feed button and the feed specified in the Feed File section will be automatically updated.

@@ -26,6 +26,7 @@ public class NPFDialog extends javax.swing.JDialog {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        filler1 = new javax.swing.Box.Filler(new java.awt.Dimension(10, 0), new java.awt.Dimension(10, 0), new java.awt.Dimension(10, 32767));
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         area = new javax.swing.JTextArea();
@@ -34,8 +35,11 @@ public class NPFDialog extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        area.setColumns(50);
+        filler1.setFocusable(false);
+        getContentPane().add(filler1, java.awt.BorderLayout.WEST);
+
         area.setEditable(false);
+        area.setColumns(50);
         area.setLineWrap(true);
         area.setRows(20);
         area.setWrapStyleWord(true);
@@ -94,6 +98,7 @@ public class NPFDialog extends javax.swing.JDialog {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextArea area;
     private javax.swing.JButton button;
+    private javax.swing.Box.Filler filler1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
