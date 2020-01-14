@@ -1,0 +1,25 @@
+Using NewPodFeed
+
+Creating a new feed
+
+Click on the New Feed button in NewPodFeed and fill in all the relevant information about your podcast, then click on the Generate button.  A save window will then pop up, allowing you to save your newly generated feed.  Save the file with a relevant file name, like feed.xml, or yourpodcastsname.xml.
+
+Creating a new release
+
+Templates
+
+A template is a way to store commonly used information about releases so that later when you create a new release, you can load the template, which will fill in some fields, and save you some typing.
+
+When creating a template, first fill in the Title, Category, Author, and Keywords fields, or whichever fields out of those you'd like to use. Even though the title for every item is different, they tend to be similar, so this can save you some time. For instance, if you name the episodes of your podcast Happy Podcast 001, Happy Podcast 002, etc., then you can fill in the Title field with Happy Podcast, and just add the number every time.
+
+In the Feed File section click on the button with three dots on it, then choose the .xml file of your feed.  This allows NewPodFeed to automatically update your feed with the new release information.
+
+The Notes section is a place you can store various notes about the podcast in general.  Whatever you enter here doesn't get included with the generated XML but it does save in the template file.
+
+After filling in the fields as you like, click on the Save Template button. Choose the location on your hard drive you'd like to save the template to, type in the file name you'd like to use for the template, and then either hit Enter or click on Save.
+
+To load a template, click on the Load Template button, find the template file you saved before, click on it, then click on the Load button. All the fields you saved before will be automatically filled in for you.
+
+New episodes
+
+To create a new release, click on the New Release button, do any template operations you need, then fill out the fields for the new release of your podcast. Click on the Update Feed button and the feed specified in the Feed File section will be automatically updated.
